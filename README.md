@@ -14,5 +14,60 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 > [Bofei Zhang*](https://bofei5675.github.io/), [Zirui Shan*](), [Zhi Gao*](https://zhigao2017.github.io/), [Wang Zhang](), [Rui Xi](), [Xiaojian Ma](https://jeasinema.github.io/), [Yuan Tao](https://i.yt.sb/), [Xinxiao Wu](), [Song-Chun Zhu](https://www.zhusongchun.net/), [Qing Li✉](https://liqing.io/)
 
 ## 🌟 Updates
-- [ ] Release Training pipeline  
-- [x] [2025.04.17] Release TongUI-3B models and 143K dataset  
+- [ ] Release all experiments scripts.
+- [ ] Release Training pipeline.
+- [x] [2025.04.17] Release **TongUI-3B** models and **143K** training dataset.  
+
+
+## Getting Started
+We use [uv](https://docs.astral.sh/uv/getting-started/) to manage the dependencies.
+```bash
+uv sync --all-groups
+```
+To using `conda` and `pip` to install the dependencies.
+```bash
+conda create -n tongui python=3.12
+conda activate tongui
+pip install -e .
+```
+
+To execute any script by `uv`, you can use the following command.
+```bash
+uv run <script_name>.py
+```
+Just replace `uv` with python if you are using `conda` or `pip` to install the dependencies.
+```bash
+python <script_name>.py
+```
+
+### Gradio Demo (Local or Online)
+We host an online Gradio Demo on [Hugging Face Spaces](https://huggingface.co/spaces/Bofeee5675/TongUI). Please feel free to try it. We also open source the code for this demo. Feel free to run it locally.
+```bash
+git clone https://huggingface.co/spaces/Bofeee5675/TongUI
+cd TongUI
+uv run app.py
+```
+
+### API Calling
+You can programatically call the TongUI API by using the following code.
+```bash
+uv run examples/api.py
+```
+
+### Serve Model By vLLM
+You can serve the model by `vLLM`.
+```bash
+uv run vllm serve Bofeee5675/TongUI-3B --port 8000 --served-model-name tongui-3b --limit-mm-per-prompt image=3
+```
+
+Then, you can use openai compatible API to call the model. Checkout `examples/call_vllm.py` for more details.
+```bash
+uv run examples/call_vllm.py
+```
+### Local Model
+Checkout `examples/inference.py` for local inference.
+```bash
+uv run examples/inference.py
+```
+
+
