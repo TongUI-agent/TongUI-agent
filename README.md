@@ -19,7 +19,7 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 - [x] [2025.04.17] Release **TongUI-3B** models and **143K** training dataset.  
 
 
-## Getting Started
+## 👋 Getting Started
 We use [uv](https://docs.astral.sh/uv/getting-started/) to manage the dependencies.
 ```bash
 uv sync --all-groups
@@ -70,4 +70,14 @@ Checkout `examples/inference.py` for local inference.
 uv run examples/inference.py
 ```
 
+## Training Details
+
+
+## Experiments
+
+
+# Acknowledgement
+We thank the following projects for their wonderful works.
+- We adopt experiments, data preprocessing pipeline from  [ShowUI](https://github.com/showlab/ShowUI)
+- We train our model by using [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/tree/main?tab=readme-ov-file)
 
