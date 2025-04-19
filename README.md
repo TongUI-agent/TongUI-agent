@@ -16,7 +16,9 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 ## 🌟 Updates
 - [ ] Release all experiments scripts.
 - [ ] Release Training pipeline.
-- [x] [2025.04.17] Release **TongUI-3B** models and **143K** training dataset.  
+- [ ] Release 1M version of TongUI dataset.
+- [ ] Release TongUI-7B.
+- [x] [2025.04.17] Release **TongUI-3B** model and **143K** training dataset.  
 
 
 ## 👋 Getting Started
@@ -69,12 +71,18 @@ Checkout `examples/inference.py` for local inference.
 ```bash
 uv run examples/inference.py
 ```
+<!-- ## Advanced Example
+Above examples are for basic usage of TongUI, which demonstrates a simple task for GUI element grounding. To address multi-turn navigation tasks, Checkout examples: -->
 
-## Training Details
+## 🔧 Training Details
+For detailed information about model training, including hyperparameters, data preprocessing, and training configurations, please refer to our [Training Documentation](docs/train.md).
 
+## 📚 Experiments
+For comprehensive experimental results, ablation studies, and evaluation details, please check our [Experiments Documentation](docs/experiments.md).
 
-## Experiments
+## 🌟 Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=TongUI-agent/TongUI-agent&type=Date)](https://www.star-history.com/#TongUI-agent/TongUI-agent&Date)
 
 # Acknowledgement
 We thank the following projects for their wonderful works.
