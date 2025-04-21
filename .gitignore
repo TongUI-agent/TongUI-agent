@@ -1,3 +1,6 @@
 /*.png
 __pycache__
 .DS_Store
+scripts
+training_data
+saves

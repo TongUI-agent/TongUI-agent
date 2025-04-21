@@ -1,0 +1,49 @@
+### model
+model_name_or_path: Qwen/Qwen2.5-VL-3B-Instruct
+image_resolution: 1053696
+video_resolution: 16384
+trust_remote_code: true
+# deepspeed: configs/deepspeed/ds_z2_config.json
+flash_attn: fa2
+enable_liger_kernel: true
+use_unsloth_gc: false
+use_unsloth: false
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 16
+lora_target: ['attn.proj', 'gate_proj', 'k_proj', 'v_proj', 'up_proj', 'down_proj', 'o_proj']
+freeze_vision_tower: false
+### dataset
+dataset: gui_video,guiact_smartphone_thought,guiact_web_single_thought,guiact_web_multi_thought,showui-desktop-augmented,showui-web,amex-ele,amex-func,aitw_with_thoughts,miniwob_with_thoughts,mind2web_with_thoughts,wikihow_v2,baidu_jingyan_train
+template: qwen2_vl
+cutoff_len: 8192
+max_samples: 100000
+overwrite_cache: true
+preprocessing_num_workers: 128
+
+### output
+output_dir: saves/qwen2_5vl-3b/lora/sft_0304
+logging_steps: 1
+save_steps: 500
+save_total_limit: 8
+save_strategy: steps
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-4
+num_train_epochs: 3.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### eval
+val_size: 0.0015
+per_device_eval_batch_size: 4
+eval_strategy: steps
+eval_steps: 100

@@ -5,17 +5,23 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "accelerate>=1.6.0",
+    "accelerate>=1.2.1",
     "flash-attn>=2.7.4.post1",
-    "gradio>=5.25.2",
-    "numpy>=2.2.4",
+    "gradio>=5.21.0",
+    "numpy<2.0.0",
     "pillow>=11.2.1",
-    "transformers",
+    "transformers>=4.51.3",
     "vllm>=0.8.4",
 ]
 
+[dependency-groups]
+train = [
+    "llamafactory @ git+https://github.com/hiyouga/LLaMA-Factory.git@main",
+    "liger-kernel>=0.5.8",
+]
+
 [tool.uv.sources]
-transformers = { git = "https://github.com/huggingface/transformers.git" }
+transformers = { git = "https://github.com/huggingface/transformers.git", rev = "v4.51.3" }
 
 [build-system]
 requires = ["hatchling"]
