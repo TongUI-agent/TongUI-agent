@@ -13,6 +13,10 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 > [**TongUI: Building Generalized GUI Agents by Learning from Multimodal Web Tutorials**](https://arxiv.org/abs/2504.12679)<br>
 > [Bofei Zhang*](https://bofei5675.github.io/), [Zirui Shan*](), [Zhi Gao*](https://zhigao2017.github.io/), [Wang Zhang](), [Rui Xi](), [Xiaojian Ma](https://jeasinema.github.io/), [Yuan Tao](https://i.yt.sb/), [Xinxiao Wu](), [Song-Chun Zhu](https://www.zhusongchun.net/), [Qing Li✉](https://liqing.io/)
 
+<p align="center">
+<img src="assets/teaser.png" alt="TongUI" width="720">
+<p>
+
 ## 🌟 Updates
 - [ ] Release all experiments scripts.
 - [ ] Release Training pipeline.
