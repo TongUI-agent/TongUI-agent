@@ -22,7 +22,7 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 
 - [ ] Release 1M version of TongUI dataset.
 - [ ] Release TongUI-7B.
-- [ ] [2025.04.21] Release 🔧 Training pipeline.
+- [x] [2025.04.21] Release 🔧 Training pipeline.
 - [x] [2025.04.17] Release **TongUI-3B** model and **143K** training dataset.  
 
 

@@ -3060,7 +3060,6 @@ dependencies = [
     { name = "accelerate" },
     { name = "flash-attn" },
     { name = "gradio" },
-    { name = "liger-kernel" },
     { name = "numpy" },
     { name = "pillow" },
     { name = "transformers" },
@@ -3069,6 +3068,7 @@ dependencies = [
 
 [package.dev-dependencies]
 train = [
+    { name = "liger-kernel" },
     { name = "llamafactory" },
 ]
 
@@ -3077,7 +3077,6 @@ requires-dist = [
     { name = "accelerate", specifier = ">=1.2.1" },
     { name = "flash-attn", specifier = ">=2.7.4.post1" },
     { name = "gradio", specifier = ">=5.21.0" },
-    { name = "liger-kernel", specifier = ">=0.5.8" },
     { name = "numpy", specifier = "<2.0.0" },
     { name = "pillow", specifier = ">=11.2.1" },
     { name = "transformers", git = "https://github.com/huggingface/transformers.git?rev=v4.51.3" },
@@ -3085,7 +3084,10 @@ requires-dist = [
 ]
 
 [package.metadata.requires-dev]
-train = [{ name = "llamafactory", git = "https://github.com/hiyouga/LLaMA-Factory.git?rev=main" }]
+train = [
+    { name = "liger-kernel", specifier = ">=0.5.8" },
+    { name = "llamafactory", git = "https://github.com/hiyouga/LLaMA-Factory.git?rev=main" },
+]
 
 [[package]]
 name = "torch"
