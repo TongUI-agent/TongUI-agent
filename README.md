@@ -18,15 +18,16 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 <p>
 
 ## 🌟 Updates
+- [ ] Training Qwen2.5-VL-32B model and release weights.
 - [ ] Release all experiments/evaluation scripts [WIP].
 - [x] [2025.05.06] Release [**TongUI-7B**](https://huggingface.co/Bofeee5675/TongUI-7B) model and [**TongUI-1M**](https://huggingface.co/datasets/Bofeee5675/TongUI-1M) dataset.
 - [x] [2025.04.21] Release 🔧 Training pipeline.
-- [x] [2025.04.17] Release [**TongUI-3B**](https://huggingface.co/Bofeee5675/TongUI-3B) model and [**143K** training dataset](https://huggingface.co/datasets/Bofeee5675/TongUI-143K/tree/main).  
+- [x] [2025.04.17] Release [**TongUI-3B**](https://huggingface.co/Bofeee5675/TongUI-3B) model and [**143K training dataset**](https://huggingface.co/datasets/Bofeee5675/TongUI-143K/tree/main).  
 
-## Performance
+## 📊 Performance
 Key findings
-- Training with this cost-efficient dataset gives **SOTA** performance on Multiple GUI benchmark.
-- Training with 1M version of dataset make the performance **scale up**!
+- Training with this cost-efficient dataset gives **SOTA👑** performance on Multiple GUI benchmarks!
+- Training with 1M version of dataset make the performance **scale up🚀**!
 
 *Results on ScreenSpot; † means the results are re-produced. We report results on six splits of ScreenSpot and the average scores. The best method is marked in bold. 1M means the dataset is 1M version.*
 
@@ -36,14 +37,12 @@ Key findings
 | UGround-7B | 1.3M | - | 63.6 | 82.5 | 60.3 | 82.8 | 80.4 | 73.3 | 70.4 |
 | OmniParser-GPT-4V | - | - | 63.6 | 91.3 | 57.0 | 93.9 | 51.0 | 81.3 | 73.0 |
 | ShowUI-2B | 256K | 0.72B | 61.1 | 76.3 | 75.5 | 92.3 | 63.6 | 81.7 | 75.1 |
-| UI-TARS-2B | - | 50B | 68.6 | 90.7 | 75.5 | 93.0 | 74.8 | 84.3 | 82.3 |
-| UI-TARS-7B | - | 50B | **85.7** | **95.9** | **85.2** | **94.5** | **83.5** | **90.0** | **89.5** |
 | Qwen2.5-VL-3B † | - | - | 7.8 | 22.2 | 5.2 | 8.4 | 1.7 | 2.4 | 8.0 |
 | Qwen2.5-VL-7B † | - | - | 16.4 | 26.8 | 5.2 | 6.6 | 7.3 | 13.0 | 12.6 |
 | TongUI-3B | 399K | 1.24B | 68.5 | 86.5 | 76.0 | 90.5 | 68.4 | 87.4 | 79.6 |
 | TongUI-7B | 399K | 1.24B | 75.0 | 91.2 | 79.9 | 93.0 | 72.3 | 88.7 | 83.4 |
 | TongUI-3B(1M) | 1.3M | - | 77.1 | 92.3 | 77.7 | 92.6 | 74.8 | 87.8 | 83.6 |
-| TongUI-7B(1M) | 1.3M | - | <u>80.0</u> | <u>93.8</u> | <u>79.5</u> | <u>91.9</u> | <u>81.6</u> | <u>89.1</u> | <u>86.0</u> |
+| TongUI-7B(1M) | 1.3M | - | **80.0** | **93.8** | **79.5** | **91.9** | **81.6** | **89.1** | **86.0** |
 
 *Results on Mind2Web. We report results on three types of tasks: cross-task, cross-website, and cross-domain. Elem. Acc means whether the element is selected correctly, OP. F1 denotes the F1 score for the predicted action, and Step SR counts successful steps. 1M means the dataset is 1M version.*
 
