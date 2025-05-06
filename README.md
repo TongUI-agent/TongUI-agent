@@ -6,7 +6,8 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 
 <p align="center">
         &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2504.12679">Paper</a> &nbsp&nbsp 
-        | 🤗 <a href="https://huggingface.co/collections/Bofeee5675/tongui-67f611e2d48b2b6e0d2ba3ee">Hugging Collections (Models & Datasets)</a>&nbsp&nbsp 
+        | 🤗 <a href="https://huggingface.co/collections/Bofeee5675/tongui-67f611e2d48b2b6e0d2ba3ee">HuggingFace Collections (Models & Datasets)</a>&nbsp&nbsp
+        | 🤖 <a href="http://modelscope.cn/collections/TongUI-158b10bdaf1046">ModelScope Collections (Models & Datasets)</a>&nbsp&nbsp 
         | &nbsp&nbsp 🤗 <a href="https://huggingface.co/spaces/Bofeee5675/TongUI">Spaces Demo</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://tongui-agent.github.io/">Webpage</a>
 </p>
 
@@ -20,6 +21,7 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 ## 🌟 Updates
 - [ ] Training Qwen2.5-VL-32B model and release weights.
 - [ ] Release all experiments/evaluation scripts [WIP].
+- [ ] Release datasets and models on ModelScope
 - [x] [2025.05.06] Release [**TongUI-7B**](https://huggingface.co/Bofeee5675/TongUI-7B) model and [**TongUI-1M**](https://huggingface.co/datasets/Bofeee5675/TongUI-1M) dataset.
 - [x] [2025.04.21] Release 🔧 Training pipeline.
 - [x] [2025.04.17] Release [**TongUI-3B**](https://huggingface.co/Bofeee5675/TongUI-3B) model and [**143K training dataset**](https://huggingface.co/datasets/Bofeee5675/TongUI-143K/tree/main).  
