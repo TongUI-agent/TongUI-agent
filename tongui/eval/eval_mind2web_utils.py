@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 from tongui.data.data_utils import dict_to_cuda
 from tongui.eval.aitw_utils import pred2json
-from tongui.utils.utils import save_json
+
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
@@ -261,8 +261,8 @@ def validate_mind2web(val_loader, model_engine, processor, epoch, global_step, w
             # writer.add_scalar("metrics/mind2web/Avg Macro Step Success Rate", metric, epoch)
             wandb.log({"metrics/mind2web/Avg Macro Step Success Rate": metric}, step=global_step)
 
-        save_json(results, os.path.join(args.tmp_dir, f'mind2web_epo{epoch}_tmp_dict.json'))
-        save_json(eval_dict, os.path.join(args.tmp_dir, f'mind2web_epo{epoch}_res_dict.json'))
+        # save_json(results, os.path.join(args.tmp_dir, f'mind2web_epo{epoch}_tmp_dict.json'))
+        # save_json(eval_dict, os.path.join(args.tmp_dir, f'mind2web_epo{epoch}_res_dict.json'))
 
     
     if world_size > 1:

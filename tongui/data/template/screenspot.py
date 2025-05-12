@@ -13,7 +13,6 @@ def screenspot_to_qwen(element_name, image, xy_int=False):
     else:
         system_prompt = _SCREENSPOT_SYSTEM + ' ' + _SYSTEM_point
 
-    '{system}<|image_1|>{element}'
     user_content.append({"type": "text", "text": system_prompt})
     user_content.append(image)
     user_content.append({"type": "text",  "text": element_name})

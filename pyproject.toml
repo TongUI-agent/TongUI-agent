@@ -8,10 +8,15 @@ dependencies = [
     "accelerate>=1.2.1",
     "flash-attn>=2.7.4.post1",
     "gradio>=5.21.0",
+    "jax>=0.5.3",
+    "matplotlib>=3.10.1",
     "numpy<2.0.0",
     "pillow>=11.2.1",
+    "pytest>=8.3.5",
+    "qwen-vl-utils>=0.0.11",
     "transformers>=4.51.3",
     "vllm>=0.8.4",
+    "wandb>=0.19.11",
 ]
 
 [dependency-groups]
