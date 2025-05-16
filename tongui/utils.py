@@ -50,7 +50,7 @@ def resize_image(original_image, factor=28, min_pixels=336*336, max_pixels=768*7
     original_width, original_height = original_image.size
     
     # Calculate new dimensions using smart_resize
-    new_width, new_height = smart_resize(
+    new_height, new_width = smart_resize(
         height=original_height,
         width=original_width,
         factor=factor,
