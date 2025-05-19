@@ -8,3 +8,5 @@ saves
 evaluation_data
 point_visualizations
 uv.lock
+*.log
+dataset/
