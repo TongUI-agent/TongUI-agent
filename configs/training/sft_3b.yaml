@@ -1,7 +1,7 @@
 ### model
 model_name_or_path: Qwen/Qwen2.5-VL-3B-Instruct
-image_resolution: 1053696
-video_resolution: 16384
+image_max_pixels: 1053696
+
 trust_remote_code: true
 # deepspeed: configs/deepspeed/ds_z2_config.json
 flash_attn: fa2
