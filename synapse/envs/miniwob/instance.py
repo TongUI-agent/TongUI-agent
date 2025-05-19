@@ -163,7 +163,7 @@ class MiniWoBInstance(Thread):
         )
         # Update to use specific version matching Chrome
         # chrome_driver_path = ChromeDriverManager(driver_version="122.0.6261.94").install()
-        chrome_driver_path = ChromeDriverManager(driver_version="128.0.6613.113").install()
+        chrome_driver_path = ChromeDriverManager(driver_version="135.0.7049.84").install()
         service = Service(chrome_driver_path)
         '''selenium.common.exceptions.WebDriverException: Message: unknown error: no chrome binary at /usr/bin/google-chrome-stable   '''
         chrome_binary_path = '/usr/bin/google-chrome-stable'

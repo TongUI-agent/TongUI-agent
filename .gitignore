@@ -10,3 +10,4 @@ point_visualizations
 uv.lock
 *.log
 dataset/
+wandb
