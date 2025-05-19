@@ -20,9 +20,9 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 ## 🌟 Updates
 - [ ] Training Qwen2.5-VL-32B model and release weights.
 - [ ] Release all experiments/evaluation scripts [WIP].
-- [x] [2025.05.06] Release [**TongUI-7B**](https://huggingface.co/Bofeee5675/TongUI-7B) model and [**TongUI-1M**](https://huggingface.co/datasets/Bofeee5675/TongUI-1M) dataset.
+- [x] [2025.05.06] Release [**TongUI-7B**](https://huggingface.co/Bofeee5675/TongUI-7B) model and [**GUI-Net-1M**](https://huggingface.co/datasets/Bofeee5675/GUI-Net-1M) dataset.
 - [x] [2025.04.21] Release 🔧 Training pipeline.
-- [x] [2025.04.17] Release [**TongUI-3B**](https://huggingface.co/Bofeee5675/TongUI-3B) model and [**143K training dataset**](https://huggingface.co/datasets/Bofeee5675/TongUI-143K/tree/main).  
+- [x] [2025.04.17] Release [**TongUI-3B**](https://huggingface.co/Bofeee5675/TongUI-3B) model.  
 
 ## 📊 Performance
 Key findings

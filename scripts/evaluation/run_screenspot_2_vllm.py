@@ -12,7 +12,7 @@ from tongui.data.template.screenspot import _SCREENSPOT_SYSTEM, _SYSTEM_point, G
 from tqdm import tqdm
 from io import BytesIO
 
-from utils.qwen import perform_gui_grounding_with_api
+from tongui.utils.qwen import perform_gui_grounding_with_api
 
 def load_screenspot_data(
         dataset_dir,

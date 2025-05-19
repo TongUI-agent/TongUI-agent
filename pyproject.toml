@@ -14,6 +14,7 @@ dependencies = [
     "peft>=0.15.1",
     "pillow>=11.2.1",
     "pytest>=8.3.5",
+    "qwen-agent>=0.0.23",
     "qwen-vl-utils>=0.0.11",
     "selenium>=4.32.0",
     "transformers>=4.51.3",
