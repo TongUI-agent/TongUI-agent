@@ -12,7 +12,7 @@ import torch.nn.functional as F
 
 import sys
 sys.path.append('.')
-from src.dataset_preprocess.data.template import screenspot_to_qwen, batch_add_answer
+from tongui.data.template import screenspot_to_qwen, batch_add_answer
 
 class ScreenSpotDataset(torch.utils.data.Dataset):
     def __init__(

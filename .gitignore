@@ -1,8 +1,13 @@
 /*.png
 __pycache__
 .DS_Store
-scripts
 training_data
 saves
 .cache
 .venv
+evaluation_data
+point_visualizations
+uv.lock
+*.log
+dataset/
+wandb
