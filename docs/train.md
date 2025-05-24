@@ -16,9 +16,9 @@ pip install -e ".[train]"
 > [!TIP]
 > To help you understand how the dataset is organized, we provide a tiny subset of our entire dataset.
 
-First, download the dataset from [HF datasets Bofeee5675/TongUI-Tiny](https://huggingface.co/datasets/Bofeee5675/TongUI-Tiny). We recommend you to download the dataset using `huggingface-cli`.
+First, download the dataset from [HF datasets Bofeee5675/TongUI-Tiny](https://huggingface.co/datasets/Bofeee5675/GUI-Net-Nano). We recommend you to download the dataset using `huggingface-cli`.
 ```bash
-huggingface-cli download Bofeee5675/TongUI-Tiny --local-dir . --repo-type dataset
+huggingface-cli download Bofeee5675/GUI-Net-Nano --local-dir . --repo-type dataset
 ```
 
 Unzip the `training_data.zip` into a folder `training_data`. Move the `tongui-tiny.json` into `data` folder. You will have a folder structure like this:
@@ -43,12 +43,12 @@ You can use a 24GB GPU to fine-tune `Qwen2.5-VL-3B-Instruct` with this tiny data
 
 ### Training with the full dataset.
 
-First download the dataset from [HF datasets Bofeee5675/TongUI-143K](https://huggingface.co/datasets/Bofeee5675/TongUI-143K) and [HF datasets Bofeee5675/TongUI-1M](https://huggingface.co/datasets/Bofeee5675/TongUI-1M). The difference between the two datasets is summarized in the following table:
+First download the dataset from [HF datasets Bofeee5675/GUI-Net-Mini](https://huggingface.co/datasets/Bofeee5675/GUI-Net-Mini) and [HF datasets Bofeee5675/GUI-Net-1M](https://huggingface.co/datasets/Bofeee5675/GUI-Net-1M). The difference between the two datasets is summarized in the following table:
 
 | Dataset | # of training data | Description |
 |---------|--------------------|----------------------|
-| TongUI-143K | 143k + 240k(from previous work) | The version of the dataset on which our model trained upon deadline of paper submission. |
-| TongUI-1M | ~1M(TongUI collected only) | The full version of the dataset. |
+| GUI-Net-Mini | 143k + 240k(from previous work) | Dataset we processed from previous work with a small subset of data (using for scaling experiments). |
+| GUI-Net-1M | ~1M(TongUI collected only) | ~1M is the number of trajectories in training set including Wikihow, Baidu Experience, and GUI Video. |
 
 After you setup the folder structure mentioned in the [Training with a tiny dataset](#training-with-a-tiny-dataset) section, you can start training with the full dataset.
 
