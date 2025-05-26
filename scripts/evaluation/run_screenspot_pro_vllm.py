@@ -424,8 +424,6 @@ def main():
     
     # Print accuracy metrics
     print_accuracy_metrics(group_metrics)
-    with open(f"results_{MODEL}_screenspot_pro.json", "w") as f:
-        json.dump(group_metrics, f, indent=4)
 
 if __name__ == "__main__":
     main()
