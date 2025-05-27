@@ -23,6 +23,17 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 <img src="assets/teaser.png" alt="TongUI" width="720">
 <p>
 
+<div align="center" markdown="1">
+
+### Supporters ❤️
+
+<a href="https://www.datacanvas.com/">
+    <img alt="DataCanvas sponsorship" width="200" src="assets/datacanvas.svg">
+</a>
+
+#### [Training TongUI-3B/7B/32B with DataCanvas(九章云极)](https://www.datacanvas.com/)
+</div>
+
 ## 🌟 Updates
 
 - [ ] Release all experiments/evaluation scripts [WIP].
