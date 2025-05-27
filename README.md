@@ -1,6 +1,7 @@
 # TongUI
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-3B&query=downloads&logo=huggingface&label=TongUI-3B%20Downloads)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-7B&query=downloads&logo=huggingface&label=TongUI-7B%20Downloads)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-32B&query=downloads&logo=huggingface&label=TongUI-32B%20Downloads)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FBofeee5675%2FGUI-Net-1M&query=downloads&logo=huggingface&label=GUI-Net-1M%20Downloads)
 
 
@@ -23,9 +24,9 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 <p>
 
 ## 🌟 Updates
-- [ ] Training Qwen2.5-VL-32B model and release weights.
-- [ ] Release all experiments/evaluation scripts [WIP]
-- [ ] Release datasets and models on ModelScope
+
+- [ ] Release all experiments/evaluation scripts [WIP].
+- [x] [2025.05.27] Release [**TongUI-32B**](https://huggingface.co/Bofeee5675/TongUI-32B) model.
 - [x] [2025.05.06] Release [**TongUI-7B**](https://huggingface.co/Bofeee5675/TongUI-7B) model and [**GUI-Net-1M**](https://huggingface.co/datasets/Bofeee5675/GUI-Net-1M) dataset.
 - [x] [2025.04.21] Release 🔧 Training pipeline.
 - [x] [2025.04.17] Release [**TongUI-3B**](https://huggingface.co/Bofeee5675/TongUI-3B) model.  
