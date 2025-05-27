@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="assets/tong.png" alt="TongUI Logo" height="48" style="vertical-align: middle;"/>
-  <span style="font-size:2.5rem; font-weight: bold; vertical-align: middle; margin-left: -75px;">TongUI</span>
+  <img src="assets/tong.png" alt="TongUI Logo" height="80">
 </p>
 
 
