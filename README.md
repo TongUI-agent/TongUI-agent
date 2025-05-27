@@ -26,7 +26,7 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 ## 🌟 Updates
 
 - [ ] Release all experiments/evaluation scripts [WIP].
-- [x] [2025.05.27] Release [**TongUI-32B**](https://huggingface.co/Bofeee5675/TongUI-32B) model.
+- [x] [2025.05.27] Release [**TongUI-32B**](https://huggingface.co/Bofeee5675/TongUI-32B) model and [Training Details](docs/train.md).
 - [x] [2025.05.06] Release [**TongUI-7B**](https://huggingface.co/Bofeee5675/TongUI-7B) model and [**GUI-Net-1M**](https://huggingface.co/datasets/Bofeee5675/GUI-Net-1M) dataset.
 - [x] [2025.04.21] Release 🔧 Training pipeline.
 - [x] [2025.04.17] Release [**TongUI-3B**](https://huggingface.co/Bofeee5675/TongUI-3B) model.  

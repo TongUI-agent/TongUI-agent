@@ -66,3 +66,8 @@ The config file `configs/training/sft_3b.yaml` contains all necessary hyper-para
     ```yaml
     datasets: gui_video_full,baidu_experience_full,guiact_smartphone_thought,guiact_web_single_thought,guiact_web_multi_thought,showui-desktop-augmented,showui-web,amex-ele,amex-func,mind2web_with_thoughtsx3,wikihow_v3
     ```
+## Multi-Node Traiing
+
+Training [**TongUI-32B**](https://huggingface.co/Bofeee5675/TongUI-32B) requires 32xH800 GPUs with 2 days per epoch. Checkout `configs/training/sft_32b.yaml` for the config file. We employ Deepspeed to scale the training to multiple nodes.
+
+Checkout `scripts/train/multinode_train.sh` for the training script.
