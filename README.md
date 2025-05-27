@@ -1,20 +1,4 @@
-<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
-  <img 
-    src="assets/tong.png" 
-    alt="TongUI Logo" 
-    style="
-      object-fit: cover;
-      object-position: 0% 30%; /* 可微调只显示'Tong'字 */
-      height: 80px;
-      width: 70px;
-      border-radius: 10px;
-      display: block;
-    "
-  />
-  <span style="font-size: 3rem; font-weight: bold; color: #dbeafe;">TongUI</span>
-</div>
-
----
+# TongUI
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-3B&query=downloads&logo=huggingface&label=TongUI-3B%20Downloads)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-7B&query=downloads&logo=huggingface&label=TongUI-7B%20Downloads)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-32B&query=downloads&logo=huggingface&label=TongUI-32B%20Downloads)
