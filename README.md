@@ -1,4 +1,9 @@
-# TongUI
+<p align="center">
+  <img src="assets/tong.png" alt="TongUI Logo" height="48" style="vertical-align: middle;"/>
+  <span style="font-size:2.5rem; font-weight: bold; vertical-align: middle; margin-left: -75px;">TongUI</span>
+</p>
+
+
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-3B&query=downloads&logo=huggingface&label=TongUI-3B%20Downloads)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-7B&query=downloads&logo=huggingface&label=TongUI-7B%20Downloads)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-32B&query=downloads&logo=huggingface&label=TongUI-32B%20Downloads)
