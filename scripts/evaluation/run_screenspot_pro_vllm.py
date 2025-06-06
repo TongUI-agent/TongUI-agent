@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import openai
 from PIL import Image, ImageDraw
-from tongui.data.template.screenspot import _SCREENSPOT_SYSTEM, _SYSTEM_point, GROUNDING
+from tongui.data.template.screenspot import _SCREENSPOT_SYSTEM, _SYSTEM_point, GROUNDING_UI_TARS
 from tqdm import tqdm
 from io import BytesIO
 
@@ -133,7 +133,7 @@ def predict_point_by_uitars(client: openai.OpenAI, image_path: str, task: str, m
         # img.save(buffered, format="JPEG")
         # encoded_image = base64.b64encode(buffered.getvalue()).decode('utf-8')
     
-    prompt = GROUNDING + task
+    prompt = GROUNDING_UI_TARS + task
     
     response = client.chat.completions.create(
         model=model,
