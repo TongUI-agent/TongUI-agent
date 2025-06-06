@@ -3,10 +3,10 @@
 </p>
 
 
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-3B&query=downloads&logo=huggingface&label=TongUI-3B%20Downloads)
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-7B&query=downloads&logo=huggingface&label=TongUI-7B%20Downloads)
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-32B&query=downloads&logo=huggingface&label=TongUI-32B%20Downloads)
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FBofeee5675%2FGUI-Net-1M&query=downloads&logo=huggingface&label=GUI-Net-1M%20Downloads)
+[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-3B&query=downloads&logo=huggingface&label=TongUI-3B%20Downloads%20This%20Month)](https://huggingface.co/collections/Bofeee5675/tongui-67f611e2d48b2b6e0d2ba3ee)
+[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-7B&query=downloads&logo=huggingface&label=TongUI-7B%20Downloads%20This%20Month)](https://huggingface.co/collections/Bofeee5675/tongui-67f611e2d48b2b6e0d2ba3ee)
+[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fmodels%2FBofeee5675%2FTongUI-32B&query=downloads&logo=huggingface&label=TongUI-32B%20Downloads%20This%20Month)](https://huggingface.co/collections/Bofeee5675/tongui-67f611e2d48b2b6e0d2ba3ee)
+[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FBofeee5675%2FGUI-Net-1M&query=downloads&logo=huggingface&label=GUI-Net-1M%20Downloads%20This%20Month)](https://huggingface.co/collections/Bofeee5675/tongui-67f611e2d48b2b6e0d2ba3ee)
 
 
 Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watching online tutorials. Fully open-sourced dataset, model and training pipeline. Cost efficient solution for GUI task data generation.
