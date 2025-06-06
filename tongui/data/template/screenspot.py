@@ -3,7 +3,7 @@ _SYSTEM_point = "The coordinate represents a clickable location [x, y] for an el
 _SYSTEM_point_int = "The coordinate represents a clickable location [x, y] for an element, which is a relative coordinate on the screenshot, scaled from 1 to 1000."
 
 _SCREENSPOT_USER = '<|image_1|>{system}{element}'
-
+# Note: This prompt is taken from UI-TARS repo, should be only used for testing of UI-TARS.
 GROUNDING_UI_TARS = "Output only the coordinate of one point in your response. What element matches the following task: "
 def screenspot_to_qwen(element_name, image, xy_int=False):
     transformed_data = []
