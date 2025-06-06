@@ -3,7 +3,7 @@ _SYSTEM_point = "The coordinate represents a clickable location [x, y] for an el
 _SYSTEM_point_int = "The coordinate represents a clickable location [x, y] for an element, which is a relative coordinate on the screenshot, scaled from 1 to 1000."
 
 _SCREENSPOT_USER = '<|image_1|>{system}{element}'
-
+GROUNDING = _SCREENSPOT_SYSTEM + " " + _SYSTEM_point
 def screenspot_to_qwen(element_name, image, xy_int=False):
     transformed_data = []
     user_content = []
