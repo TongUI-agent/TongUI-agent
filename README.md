@@ -41,6 +41,7 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 ## 🌟 Updates
 
 - [ ] Release all experiments/evaluation scripts [WIP].
+- [x] [2025.10.23] Release [**TongUI-Absolute**](https://huggingface.co/datasets/Bofeee5675/TongUI-absolute) — annotated dataset with **absolute coordinate labels**. 
 - [x] [2025.07.10] Release [crawler code](https://github.com/TongUI-agent/TongUI-Crawler) and [intermediate crawler data🤗](https://huggingface.co/datasets/Bofeee5675/GUI-Net-Crawler). Please feel free to process your own SFT dataset! 
 - [x] [2025.06.16] Submit evaluation to [UI-Vision](https://github.com/uivision/UI-Vision)! Checkout result [here](https://github.com/uivision/UI-Vision#element-grounding) and how to reproduce [here](https://github.com/uivision/UI-Vision/pull/3)
 - [x] [2025.05.27] Release [**TongUI-32B**](https://huggingface.co/Bofeee5675/TongUI-32B) model and [Training Details](docs/train.md).
@@ -66,7 +67,8 @@ Key findings
 | TongUI-3B | 399K | 1.24B | 68.5 | 86.5 | 76.0 | 90.5 | 68.4 | 87.4 | 79.6 |
 | TongUI-7B | 399K | 1.24B | 75.0 | 91.2 | 79.9 | 93.0 | 72.3 | 88.7 | 83.4 |
 | TongUI-3B(1M) | 1.3M | - | 77.1 | 92.3 | 77.7 | 92.6 | 74.8 | 87.8 | 83.6 |
-| TongUI-7B(1M) | 1.3M | - | **80.0** | **93.8** | **79.5** | **91.9** | **81.6** | **89.1** | **86.0** |
+| TongUI-7B(1M) | 1.3M | - | **80.0** | 93.8 | 79.5 | 91.9 | 81.6 | 89.1 | 86.0 |
+| TongUI-32B(1M) | 1.3M | - | **80.0** | **94.8** | **84.3** | **96.3** | **84.5** | **91.3** | **88.5** |
 
 *Results on Mind2Web. We report results on three types of tasks: cross-task, cross-website, and cross-domain. Elem. Acc means whether the element is selected correctly, OP. F1 denotes the F1 score for the predicted action, and Step SR counts successful steps. 1M means the dataset is 1M version.*
 
@@ -84,7 +86,8 @@ Key findings
 | TongUI-3B | 48.0 | 88.4 | 44.2 | 48.9 | 85.4 | 42.6 | 50.0 | 87.7 | 46.0 |
 | TongUI-7B | 51.1 | 88.7 | 46.9 | 50.4 | 87.5 | 43.7 | 53.9 | 88.6 | 49.1 |
 | TongUI-3B(1M) | 53.4 | 89.0 | 48.8 | 54.2 | 86.4 | 48.1 | 53.8 | 88.2 | 49.5 |
-| TongUI-7B(1M) | **58.1** | **88.7** | **53.4** | **55.6** | **87.2** | **49.0** | **57.6** | **88.7** | **52.9** |
+| TongUI-7B(1M) | **58.1** | **88.7** | **53.4** | 55.6 | **87.2** | 49.0 | 57.6 | **88.7** | 52.9 |
+| TongUI-32B(1M) | 57.2 | 88.1 | 52.4 | **57.4** | 85.8 | **50.6** | **59.2** | 87.8 | **54.1** |
 
 For other experiments, please refer to [our paper](https://arxiv.org/abs/2504.12679).
 ## 👋 Getting Started
