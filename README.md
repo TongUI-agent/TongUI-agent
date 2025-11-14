@@ -41,6 +41,7 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
 ## 🌟 Updates
 
 - [ ] Release all experiments/evaluation scripts [WIP].
+- [x] [2025.11.14] Accepted by AAAI 2026👑👑👑
 - [x] [2025.10.23] Release [**TongUI-Absolute**](https://huggingface.co/datasets/Bofeee5675/TongUI-absolute) — annotated dataset with **absolute coordinate labels**. 
 - [x] [2025.07.10] Release [crawler code](https://github.com/TongUI-agent/TongUI-Crawler) and [intermediate crawler data🤗](https://huggingface.co/datasets/Bofeee5675/GUI-Net-Crawler). Please feel free to process your own SFT dataset! 
 - [x] [2025.06.16] Submit evaluation to [UI-Vision](https://github.com/uivision/UI-Vision)! Checkout result [here](https://github.com/uivision/UI-Vision#element-grounding) and how to reproduce [here](https://github.com/uivision/UI-Vision/pull/3)
