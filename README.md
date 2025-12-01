@@ -20,7 +20,7 @@ Training Vision-Language-Action(VLA) Model for GUI & Computer Use tasks by watch
         | &nbsp&nbsp 🤗 <a href="https://huggingface.co/spaces/Bofeee5675/TongUI">Spaces Demo</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://tongui-agent.github.io/">Webpage</a>
 </p>
 
-> [**TongUI: Building Generalized GUI Agents by Learning from Multimodal Web Tutorials**](https://arxiv.org/abs/2504.12679)<br>
+> [**TongUI: Internet-Scale Trajectories from Multimodal Web Tutorials for Generalized GUI Agents**](https://arxiv.org/abs/2504.12679)<br>
 > [Bofei Zhang*](https://bofei5675.github.io/), [Zirui Shang*](), [Zhi Gao*](https://zhigao2017.github.io/), [Wang Zhang](), [Rui Xie](), [Xiaojian Ma](https://jeasinema.github.io/), [Yuan Tao](https://i.yt.sb/), [Xinxiao Wu](), [Song-Chun Zhu](https://www.zhusongchun.net/), [Qing Li✉](https://liqing.io/)
 
 <p align="center">
